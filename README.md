@@ -14,7 +14,7 @@
 + *Prilepi* vsebino odložišča: Ctrl+V
 
 <!-- 2. nivojski razdelek -->
-## Izvorna koda
+## Izvorna koda 
 
 Včasih pride prav značka kbd za tipke. Značko uporabimo takole:
 
