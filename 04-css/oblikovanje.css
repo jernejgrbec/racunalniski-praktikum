@@ -45,7 +45,31 @@ h2{
 .slika img{
     width: 100%;
     height: auto;
+    border-radius: 50%;
 }
+
+.slika p:last-child{
+    font-size: 0.8em;
+}
+
+.slika:nth-child(-n + 3) {
+    border: 2px solid orange;
+    margin-bottom: 1px;
+}
+  
+.slika:nth-child(even) {
+    background-color: lightyellow;
+}
+
+a {
+    color: #0000ff;
+    text-decoration: none;
+}
+  
+a::before {
+    content: '🔗';
+}
+  
 /*  Odstranimo podčrtovanje povezav in outline (ta se včasih pokaže kot kvadratek okrog povezave)  */
 a { text-decoration: none; outline:none; }
 /*  Spremenimo barve povezav: neobiskanih, obiskanih, pod miško in aktivnih */
